@@ -1,3 +1,5 @@
-14 as 20 hora de trybe
-bashPC
-Dibrador
+Unix 
+Bash 
+Computer Cience
+Logica de Programação
+Soft Skills 
