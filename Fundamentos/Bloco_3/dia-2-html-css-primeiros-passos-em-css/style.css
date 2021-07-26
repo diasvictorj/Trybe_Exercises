@@ -1,0 +1,30 @@
+body{
+    font-size: 16px;
+    text-align: center;
+}
+
+h1{
+    width: 65px;
+    color: orange;
+    font-family: monospace, sans-serif ;
+}
+p{
+    font-size: 3em;
+    font-weight: 600;
+}
+#background_color {
+    background-color: peru;
+}
+.amarelo {
+    background-color: yellow;
+}
+.vermelho{
+    background-color: red;
+} 
+.marrom{
+    background-color: brown;
+}
+ul {
+    text-decoration: underline;
+    line-height: 3em;
+}
