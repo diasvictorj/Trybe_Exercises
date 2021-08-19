@@ -1,0 +1,29 @@
+div:hover{
+    -webkit-text-stroke:silver ;
+    -webkit-text-stroke-width: 1px;
+}
+#primaria{
+    background-color: red;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#secundaria{
+    background-color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#complementar{
+    font-style: italic;
+    background-color: rgb(96, 206, 233);
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#escura{
+    background-color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#clara{
+    background-color: pink;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

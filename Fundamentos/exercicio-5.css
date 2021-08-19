@@ -1,0 +1,10 @@
+ol li{
+    background-color: yellow;
+}
+ol li.par{
+    color: green;
+    
+}
+ol li.impar{
+    text-transform: capitalize;
+}
