@@ -1,0 +1,40 @@
+*{
+    margin: 10px 10px;
+    text-align: center;
+}
+body {
+    font-size: 115%;
+    background-color: #d4e79e; 
+}
+
+h1 {
+    font-size: 95%;
+    color: rgb(230, 114, 177);
+}
+h2 {
+    font-size: 95%;
+    color: rgb(230, 114, 177);
+
+}
+p{
+    color:rgb(102, 97, 102);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 500px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 20px 10px ;
+    margin: 0;
+}
+@media screen and (min-width:768px) {
+    h1{
+        font-size: 200%;
+       
+    }
+    
+}
