@@ -1,6 +1,4 @@
-// Ao chamar a função doingThings:
-const doingThings(wakeUp) => ('Acordando!!') ;
+const imc = (peso, altura) => (peso / (altura * altura)).toFixed(2);
+const patientInfo = [60, 1.7];
 
-// Ela deve retornar o valor do respectivo parâmetro, neste caso:
-// Acordando!!
-console.log(doingThings(wakeUp));
+console.log(imc(...patientInfo)); // 20.76
