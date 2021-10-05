@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+const monthTasks = ['Dia 10/10 - Show Sunset','Dia 16/10 - Show Especial Pearl Jam','Dia 17/10 - Show Acústico','Dia 23/10 - Show PopRock Night'];
+const Task = (element) => {
+    return (
+      <li>{element}</li>
+    )
+}
 function App() {
+  const finalList = monthTasks.map((element) => Task(element));
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ul>
+      {finalList}
+    </ul>
   );
 }
 
